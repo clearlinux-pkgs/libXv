@@ -4,7 +4,7 @@
 #
 Name     : libXv
 Version  : 1.0.10
-Release  : 3
+Release  : 4
 URL      : http://xorg.freedesktop.org/releases/individual/lib/libXv-1.0.10.tar.gz
 Source0  : http://xorg.freedesktop.org/releases/individual/lib/libXv-1.0.10.tar.gz
 Summary  : The Xv Library
