@@ -4,7 +4,7 @@
 #
 Name     : libXv
 Version  : 1.0.11
-Release  : 7
+Release  : 8
 URL      : http://xorg.freedesktop.org/releases/individual/lib/libXv-1.0.11.tar.gz
 Source0  : http://xorg.freedesktop.org/releases/individual/lib/libXv-1.0.11.tar.gz
 Summary  : The Xv Library
@@ -74,8 +74,8 @@ rm -rf %{buildroot}
 %files dev
 %defattr(-,root,root,-)
 /usr/include/X11/extensions/Xvlib.h
-/usr/lib64/*.so
-/usr/lib64/pkgconfig/*.pc
+/usr/lib64/libXv.so
+/usr/lib64/pkgconfig/xv.pc
 
 %files doc
 %defattr(-,root,root,-)
@@ -83,4 +83,5 @@ rm -rf %{buildroot}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/*.so.*
+/usr/lib64/libXv.so.1
+/usr/lib64/libXv.so.1.0.0
