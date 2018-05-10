@@ -6,7 +6,7 @@
 #
 Name     : libXv
 Version  : 1.0.11
-Release  : 12
+Release  : 13
 URL      : http://xorg.freedesktop.org/releases/individual/lib/libXv-1.0.11.tar.gz
 Source0  : http://xorg.freedesktop.org/releases/individual/lib/libXv-1.0.11.tar.gz
 Source99 : http://xorg.freedesktop.org/releases/individual/lib/libXv-1.0.11.tar.gz.sig
